@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="79" viewBox="0 0 78 79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #35c0e4;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_2619" data-name="Grupo 2619" transform="translate(-620 -3438)">
+    <g id="Grupo_2420" data-name="Grupo 2420" transform="translate(619.715 3437.714)">
+      <rect id="Rectángulo_1945" data-name="Rectángulo 1945" class="cls-1" width="78" height="79" rx="18" transform="translate(0.285 0.286)"/>
+    </g>
+    <g id="file" transform="translate(635.968 3454.469)">
+      <g id="Grupo_2436" data-name="Grupo 2436" transform="translate(0)">
+        <g id="Grupo_2435" data-name="Grupo 2435">
+          <path id="Trazado_8108" data-name="Trazado 8108" class="cls-2" d="M37.263,32.611A9.036,9.036,0,0,0,33.9,19.03V11.083L22.819,0H.168V44.061H33.9v-8.7a8.964,8.964,0,0,0,1.533-.923l6.929,7.006L44.2,39.625ZM23.576,4.407l5.92,5.92h-5.92ZM31.321,41.48H2.75V2.582H20.994V12.909H31.321v5.346a9.033,9.033,0,1,0,0,17.88Zm3.273-9.722a6.454,6.454,0,1,1,0-9.128A6.462,6.462,0,0,1,34.594,31.758Z" transform="translate(-0.168)"/>
+        </g>
+      </g>
+      <g id="Grupo_2438" data-name="Grupo 2438" transform="translate(5.046 15.679)">
+        <g id="Grupo_2437" data-name="Grupo 2437" transform="translate(0 0)">
+          <rect id="Rectángulo_1950" data-name="Rectángulo 1950" class="cls-2" width="18.291" height="2.523"/>
+        </g>
+      </g>
+      <g id="Grupo_2440" data-name="Grupo 2440" transform="translate(5.046 20.724)">
+        <g id="Grupo_2439" data-name="Grupo 2439" transform="translate(0 0)">
+          <rect id="Rectángulo_1951" data-name="Rectángulo 1951" class="cls-2" width="13.245" height="2.523"/>
+        </g>
+      </g>
+      <g id="Grupo_2442" data-name="Grupo 2442" transform="translate(5.046 30.816)">
+        <g id="Grupo_2441" data-name="Grupo 2441" transform="translate(0 0)">
+          <rect id="Rectángulo_1952" data-name="Rectángulo 1952" class="cls-2" width="13.245" height="2.523"/>
+        </g>
+      </g>
+      <g id="Grupo_2444" data-name="Grupo 2444" transform="translate(5.046 25.77)">
+        <g id="Grupo_2443" data-name="Grupo 2443" transform="translate(0 0)">
+          <rect id="Rectángulo_1953" data-name="Rectángulo 1953" class="cls-2" width="13.245" height="2.523"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

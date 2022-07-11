@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54.132" height="60.273" viewBox="0 0 54.132 60.273">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #7393fe;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_2388" data-name="Grupo 2388" transform="translate(-792.934 -2716.863)">
+    <g id="Icon_feather-user" data-name="Icon feather-user" transform="translate(789.434 2714.863)">
+      <path id="Trazado_8099" data-name="Trazado 8099" class="cls-1" d="M55.132,40.924V34.783A12.283,12.283,0,0,0,42.849,22.5H18.283A12.283,12.283,0,0,0,6,34.783v6.141" transform="translate(0 18.849)"/>
+      <path id="Trazado_8100" data-name="Trazado 8100" class="cls-1" d="M36.566,16.783A12.283,12.283,0,1,1,24.283,4.5,12.283,12.283,0,0,1,36.566,16.783Z" transform="translate(6.283 0)"/>
+    </g>
+  </g>
+</svg>

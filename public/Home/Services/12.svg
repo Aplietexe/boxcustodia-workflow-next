@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="79" viewBox="0 0 78 79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fd612c;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_2620" data-name="Grupo 2620" transform="translate(-620 -3568)">
+    <g id="Grupo_2420" data-name="Grupo 2420" transform="translate(619.715 3567.714)">
+      <rect id="Rectángulo_1945" data-name="Rectángulo 1945" class="cls-1" width="78" height="79" rx="18" transform="translate(0.285 0.286)"/>
+    </g>
+    <g id="pen" transform="translate(640.176 3586.583)">
+      <path id="Trazado_8163" data-name="Trazado 8163" class="cls-2" d="M312.518,201.883l-13.2,13.2a1.556,1.556,0,0,0,2.2,2.2l13.2-13.2a1.556,1.556,0,0,0-2.2-2.2Z" transform="translate(-275.617 -185.755)"/>
+      <path id="Trazado_8164" data-name="Trazado 8164" class="cls-2" d="M21.5,145.313a1.555,1.555,0,0,0-2.2,0L5.522,159.092a12.008,12.008,0,0,0-3.428,10.028L.455,170.758a1.556,1.556,0,1,0,2.2,2.2l1.637-1.637a12,12,0,0,0,10.029-3.429L28.1,154.113a1.556,1.556,0,0,0,0-2.2Zm-9.38,20.379a8.9,8.9,0,0,1-6.989,2.589,8.9,8.9,0,0,1,2.589-6.989L20.4,148.613l4.4,4.4Z" transform="translate(0 -133.585)"/>
+      <path id="Trazado_8165" data-name="Trazado 8165" class="cls-2" d="M304.817,1.829l-5.5,5.5a1.556,1.556,0,0,0,2.2,2.2l5.5-5.5a3.111,3.111,0,0,1,4.4,4.4l-5.5,5.5a1.556,1.556,0,0,0,2.2,2.2l5.5-5.5a6.223,6.223,0,1,0-8.8-8.8Z" transform="translate(-275.617 0)"/>
+    </g>
+  </g>
+</svg>

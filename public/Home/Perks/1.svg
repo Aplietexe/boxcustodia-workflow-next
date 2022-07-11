@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.735" height="56.76" viewBox="0 0 56.735 56.76">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #9b59b6;
+      }
+
+      .cls-2 {
+        font-size: 13px;
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g id="ux" transform="translate(-0.001)">
+    <g id="Grupo_2608" data-name="Grupo 2608">
+      <path id="Trazado_2389" data-name="Trazado 2389" class="cls-1" d="M11.868,270.664H.111a28.417,28.417,0,0,0,26.9,26.715V285.628A16.722,16.722,0,0,1,11.868,270.664Z" transform="translate(-0.11 -240.619)"/>
+      <path id="Trazado_2390" data-name="Trazado 2390" class="cls-1" d="M272.483,285.587v11.767a28.415,28.415,0,0,0,26.5-26.69H287.227A16.724,16.724,0,0,1,272.483,285.587Z" transform="translate(-242.248 -240.618)"/>
+      <path id="Trazado_2391" data-name="Trazado 2391" class="cls-1" d="M27.016,11.752V0A28.417,28.417,0,0,0,.111,26.715H11.868A16.722,16.722,0,0,1,27.016,11.752Z" transform="translate(-0.11)"/>
+      <path id="Trazado_2392" data-name="Trazado 2392" class="cls-1" d="M287.227,26.912h11.757a28.415,28.415,0,0,0-26.5-26.69V11.989A16.724,16.724,0,0,1,287.227,26.912Z" transform="translate(-242.248 -0.197)"/>
+      <path id="Trazado_2393" data-name="Trazado 2393" class="cls-1" d="M187.529,225.5v2.212a2.193,2.193,0,0,1-.234,1.118,1.14,1.14,0,0,1-1.856,0,2.193,2.193,0,0,1-.234-1.118v-4.1h-2.563v4.181a4.757,4.757,0,0,0,.109,1.042c.366,1.633,1.642,2.552,3.594,2.552a3.647,3.647,0,0,0,2.94-1.172,3.7,3.7,0,0,0,.763-2.422V223.61h-2.519Z" transform="translate(-160.38 -198.788)"/>
+      <text id="i" class="cls-2" transform="translate(30.429 33.356)"><tspan x="0" y="0">i</tspan></text>
+    </g>
+  </g>
+</svg>

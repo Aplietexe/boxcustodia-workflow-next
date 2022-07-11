@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #d1d1d1;
+      }
+
+      .cls-2 {
+        fill: #4a50fd;
+      }
+
+      .cls-3 {
+        fill: #aa62e3;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_2547" data-name="Grupo 2547" transform="translate(7048 -1392)">
+    <g id="Elipse_127" data-name="Elipse 127" class="cls-1" transform="translate(-7048 1392)">
+      <circle class="cls-5" cx="70" cy="70" r="70"/>
+      <circle class="cls-6" cx="70" cy="70" r="69.5"/>
+    </g>
+    <circle id="Elipse_128" data-name="Elipse 128" class="cls-2" cx="6" cy="6" r="6" transform="translate(-7031 1404)"/>
+    <g id="Grupo_2462" data-name="Grupo 2462" transform="translate(-7010.567 1428.684)">
+      <rect id="Rectángulo_1945" data-name="Rectángulo 1945" class="cls-3" width="66" height="66" rx="18" transform="translate(-0.434 0.316)"/>
+      <g id="programming" transform="translate(13.567 -50.009)">
+        <path id="Trazado_8151" data-name="Trazado 8151" class="cls-4" d="M80.2,158.712,73.7,165.217a1.124,1.124,0,0,0,0,1.589l5.874,5.874a1.124,1.124,0,1,0,1.589-1.589l-5.079-5.079,5.711-5.711a1.124,1.124,0,1,0-1.589-1.589Z" transform="translate(-67.87 -82.963)"/>
+        <path id="Trazado_8152" data-name="Trazado 8152" class="cls-4" d="M324.351,158.713a1.124,1.124,0,1,0-1.589,1.589l5.079,5.079-5.711,5.711a1.124,1.124,0,1,0,1.589,1.589l6.506-6.506a1.124,1.124,0,0,0,0-1.589Z" transform="translate(-297.691 -82.963)"/>
+        <path id="Trazado_8153" data-name="Trazado 8153" class="cls-4" d="M208.513,128.762a1.124,1.124,0,0,0-1.434.685l-5.943,16.827a1.124,1.124,0,0,0,2.119.748L209.2,130.2A1.124,1.124,0,0,0,208.513,128.762Z" transform="translate(-186.008 -55.501)"/>
+        <path id="Trazado_8154" data-name="Trazado 8154" class="cls-4" d="M32.93,68.7H5.429A5.435,5.435,0,0,0,0,74.13V91.337a5.435,5.435,0,0,0,5.429,5.429h27.5a5.435,5.435,0,0,0,5.429-5.429V74.13A5.435,5.435,0,0,0,32.93,68.7Zm3.181,22.636a3.185,3.185,0,0,1-3.181,3.181H5.429a3.185,3.185,0,0,1-3.181-3.181V74.13a3.185,3.185,0,0,1,3.181-3.181h27.5a3.185,3.185,0,0,1,3.181,3.181Z" transform="translate(0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

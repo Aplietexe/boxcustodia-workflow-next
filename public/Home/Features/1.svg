@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #d1d1d1;
+      }
+
+      .cls-2 {
+        fill: #4a50fd;
+      }
+
+      .cls-3 {
+        fill: #67d173;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_2573" data-name="Grupo 2573" transform="translate(-1133 -1673)">
+    <g id="Grupo_2544" data-name="Grupo 2544" transform="translate(8181 281)">
+      <g id="Elipse_127" data-name="Elipse 127" class="cls-1" transform="translate(-7048 1392)">
+        <circle class="cls-5" cx="70" cy="70" r="70"/>
+        <circle class="cls-6" cx="70" cy="70" r="69.5"/>
+      </g>
+      <circle id="Elipse_128" data-name="Elipse 128" class="cls-2" cx="6" cy="6" r="6" transform="translate(-7031 1404)"/>
+      <g id="Grupo_2462" data-name="Grupo 2462" transform="translate(-7010.567 1428.684)">
+        <rect id="Rectángulo_1945" data-name="Rectángulo 1945" class="cls-3" width="66" height="66" rx="18" transform="translate(-0.434 0.316)"/>
+      </g>
+      <g id="flow" transform="translate(-6997.385 1442.245)">
+        <g id="Grupo_2505" data-name="Grupo 2505">
+          <g id="Grupo_2504" data-name="Grupo 2504">
+            <path id="Trazado_8137" data-name="Trazado 8137" class="cls-4" d="M17.124,7.339H19.57V4.892H17.124V0H0V12.231H17.124ZM14.677,9.785H2.446V2.446H14.677Z"/>
+            <path id="Trazado_8138" data-name="Trazado 8138" class="cls-4" d="M258.446,356.892H256v2.446h2.446v4.892H275.57V352H258.446Zm2.446-2.446h12.231v7.339H260.892Z" transform="translate(-236.43 -325.091)"/>
+            <path id="Trazado_8139" data-name="Trazado 8139" class="cls-4" d="M361.785,71.95a5.5,5.5,0,0,1-5.5,5.5h-.612V79.9h.612a7.95,7.95,0,0,0,0-15.9H352v2.446h4.281A5.51,5.51,0,0,1,361.785,71.95Z" transform="translate(-325.091 -59.108)"/>
+            <rect id="Rectángulo_1973" data-name="Rectángulo 1973" class="cls-4" width="2.224" height="2.224" transform="translate(22.241 5.004)"/>
+            <path id="Trazado_8140" data-name="Trazado 8140" class="cls-4" d="M157.961,177.221h3.163v-2.446h-3.163l-5.4-5.4-5.4,5.4H144v2.446h3.163l5.4,5.4Zm-5.4-4.386L155.725,176l-3.163,3.163L149.4,176Z" transform="translate(-132.992 -156.428)"/>
+            <path id="Trazado_8141" data-name="Trazado 8141" class="cls-4" d="M2.446,247.95a5.5,5.5,0,0,1,5.5-5.5h.612V240H7.95a7.95,7.95,0,0,0,0,15.9h4.281v-2.446H7.95A5.51,5.51,0,0,1,2.446,247.95Z" transform="translate(0 -221.653)"/>
+            <rect id="Rectángulo_1974" data-name="Rectángulo 1974" class="cls-4" width="2.224" height="2.78" transform="translate(15.013 31.693)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

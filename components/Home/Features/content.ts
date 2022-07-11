@@ -1,0 +1,41 @@
+import image1 from "../../assets/Features/1.svg"
+import image2 from "../../assets/Features/2.svg"
+import image3 from "../../assets/Features/3.svg"
+import image4 from "../../assets/Features/4.svg"
+import image5 from "../../assets/Features/5.svg"
+import image6 from "../../assets/Features/6.svg"
+
+const featuresContent: { image: string; text: string; title: string }[] = [
+  {
+    image: image1,
+    text: "Diagrama tu flujo de proceso identificando los intervinientes, tareas y las líneas de conexión.",
+    title: "Diagramá tus procesos",
+  },
+  {
+    image: image2,
+    text: "Determiná las características y propiedades de cada uno de los objetos previamente definidos.",
+    title: "Definí los atributos",
+  },
+  {
+    image: image3,
+    text: "Corroborá y ratificá conjuntamente los pasos previos con las personas y áreas intervinientes dentro del flujo de procesos.",
+    title: "Validación conjunta",
+  },
+  {
+    image: image4,
+    text: "Una vez realizada la aprobación conjunta Box ejecutará la programación de códigos y algoritmos para lograr la automatización del proceso de negocio.",
+    title: "Ejecución y programación",
+  },
+  {
+    image: image5,
+    text: "Se realizaran las pruebas y capacitación necesarias previamente a salir en producción.",
+    title: "Prueba y capacitación",
+  },
+  {
+    image: image6,
+    text: "Coordinar día y hora de implementación y lanzamiento",
+    title: "Lanzamiento",
+  },
+]
+
+export default featuresContent

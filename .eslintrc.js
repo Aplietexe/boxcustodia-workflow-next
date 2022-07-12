@@ -121,6 +121,7 @@ const componentRules = {
     },
   ],
 
+  "react/jsx-no-leaked-render": "off",
   "react/jsx-props-no-spreading": "off",
   "react/require-default-props": "off",
   "react-perf/jsx-no-jsx-as-prop": "off",

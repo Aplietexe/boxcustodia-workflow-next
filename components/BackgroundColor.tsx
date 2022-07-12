@@ -24,11 +24,7 @@ const BackgroundColor = ({
   isSingleRow,
 }: BackgroundColorProps) => (
   <StyledRow className={className} color={color}>
-    {
-      // False positive, ternary operator prevents leaks
-      // eslint-disable-next-line react/jsx-no-leaked-render
-      isSingleRow ? children : <Col>{children}</Col>
-    }
+    {isSingleRow ? children : <Col>{children}</Col>}
   </StyledRow>
 )
 

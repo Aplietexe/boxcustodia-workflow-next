@@ -2,15 +2,13 @@ import type { ReactNode } from "react"
 import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
-import type { DeepReadonly } from "lib/types"
-
 const StyledCol = styled(Col)`
   padding-inline: 5.8vw;
 `
 
-type PadProps = DeepReadonly<{
+interface PadProps {
   children: ReactNode
-}>
+}
 
 const Pad = ({ children }: PadProps) => (
   <Row>

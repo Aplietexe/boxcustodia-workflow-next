@@ -11,7 +11,7 @@ import phone2Icon from "public/Home/ContactForm/phone-2.svg"
 const contactOptions: {
   alt: string
   height: number
-  image: string
+  image: StaticImageData
   text: string
   width: number
 }[] = [

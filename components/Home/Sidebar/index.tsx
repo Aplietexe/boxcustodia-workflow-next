@@ -41,10 +41,10 @@ const InvertedLink = styled.a`
   --text-color: var(--accent-dark);
 `
 
-type SidebarProps = Readonly<{
+interface SidebarProps {
   isSidebarOpen: boolean
   setIsSidebarOpen: SetState<boolean>
-}>
+}
 
 const Sidebar = ({ isSidebarOpen, setIsSidebarOpen }: SidebarProps) => {
   const handleClose = useCallback(() => {

@@ -22,10 +22,10 @@ const ServiceWrapper = styled.div`
   }
 `
 
-type ServiceProps = Readonly<{
-  image: string
+interface ServiceProps {
+  image: StaticImageData
   text: string
-}>
+}
 
 const Service = ({ image, text }: ServiceProps) => (
   <Col lg={6} xs={12}>

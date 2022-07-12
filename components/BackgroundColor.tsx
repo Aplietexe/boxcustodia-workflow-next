@@ -2,22 +2,20 @@ import type { ReactNode } from "react"
 import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
-import type { DeepReadonly } from "lib/types"
-
-type StyledRowProps = Readonly<{
+interface StyledRowProps {
   color: string
-}>
+}
 
 const StyledRow = styled(Row)<StyledRowProps>`
   background-color: ${({ color }) => color};
 `
 
-type BackgroundColorProps = DeepReadonly<{
+interface BackgroundColorProps {
   children: ReactNode
   className?: string
   color: string
   isSingleRow?: boolean
-}>
+}
 
 const BackgroundColor = ({
   children,

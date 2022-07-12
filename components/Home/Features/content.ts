@@ -5,7 +5,11 @@ import image4 from "public/Home/Features/4.svg"
 import image5 from "public/Home/Features/5.svg"
 import image6 from "public/Home/Features/6.svg"
 
-const featuresContent: { image: string; text: string; title: string }[] = [
+const featuresContent: {
+  image: StaticImageData
+  text: string
+  title: string
+}[] = [
   {
     image: image1,
     text: "Diagrama tu flujo de proceso identificando los intervinientes, tareas y las líneas de conexión.",

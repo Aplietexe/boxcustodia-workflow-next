@@ -48,9 +48,9 @@ const ContactLink = styled.a`
   }
 `
 
-type NavbarProps = Readonly<{
+interface NavbarProps {
   setIsSidebarOpen: SetState<boolean>
-}>
+}
 
 const Navbar = ({ setIsSidebarOpen }: NavbarProps) => {
   const handleBurgerClick = useCallback(() => {

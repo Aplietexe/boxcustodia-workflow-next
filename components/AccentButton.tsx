@@ -1,8 +1,6 @@
 import type { ReactNode } from "react"
 import styled from "styled-components"
 
-import type { DeepReadonly } from "lib/types"
-
 const StyledButton = styled.button`
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -23,10 +21,10 @@ const StyledButton = styled.button`
   }
 `
 
-type AccentButtonProps = DeepReadonly<{
+interface AccentButtonProps {
   children: ReactNode
   href?: string
-}>
+}
 
 const AccentButton = ({ children, href }: AccentButtonProps) => {
   const button = <StyledButton type="button">{children}</StyledButton>

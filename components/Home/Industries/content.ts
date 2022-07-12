@@ -6,7 +6,7 @@ import image5 from "public/Home/Industries/5.svg"
 
 const industriesContent: {
   height: number
-  image: string
+  image: StaticImageData
   title: string
   width: number
 }[] = [

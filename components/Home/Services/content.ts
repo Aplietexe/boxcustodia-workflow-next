@@ -11,7 +11,7 @@ import image7 from "public/Home/Services/7.svg"
 import image8 from "public/Home/Services/8.svg"
 import image9 from "public/Home/Services/9.svg"
 
-const servicesContent: { image: string; text: string }[] = [
+const servicesContent: { image: StaticImageData; text: string }[] = [
   {
     image: image1,
     text: "Distribución automática de documentos",

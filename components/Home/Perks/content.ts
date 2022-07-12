@@ -8,7 +8,7 @@ import image7 from "public/Home/Perks/7.svg"
 
 const perksContent: {
   height: number
-  image: string
+  image: StaticImageData
   text: string
   title: string
   width: number

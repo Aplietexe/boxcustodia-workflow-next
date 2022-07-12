@@ -14,10 +14,6 @@ const StyledLink = styled.a`
   }
 
   display: inline-block;
-
-  img {
-    margin-left: 1em;
-  }
 `
 
 export default StyledLink

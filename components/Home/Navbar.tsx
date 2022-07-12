@@ -1,13 +1,12 @@
+import { useCallback } from "react"
 import { Col, Image as ImageComponent, Row } from "react-bootstrap"
 import styled from "styled-components"
-import { useCallback } from "react"
 
-import workflowLogo from "../assets/Navbar/workflow-logo.svg"
-import loginIcon from "../assets/Navbar/login-icon.svg"
-import burgerIcon from "../assets/Navbar/burger-icon.svg"
-import type { SetState } from "../types"
-
-import Pad from "./common/Pad"
+import Pad from "components/Pad"
+import type { SetState } from "lib/types"
+import burgerIcon from "public/Home/Navbar/burger-icon.svg"
+import loginIcon from "public/Home/Navbar/login-icon.svg"
+import workflowLogo from "public/Home/Navbar/workflow-logo.svg"
 
 const StyledImage = styled(ImageComponent)`
   width: 2rem;

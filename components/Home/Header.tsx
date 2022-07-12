@@ -1,12 +1,11 @@
 import { Col, Image as ImageComponent, Row } from "react-bootstrap"
 import styled from "styled-components"
 
-import image from "../assets/Header/image.webp"
-import useBreakpoints from "../hooks/useBreakpoints"
-
-import AccentButton from "./common/AccentButton"
-import Pad from "./common/Pad"
-import StyledH2 from "./common/StyledH2"
+import AccentButton from "components/AccentButton"
+import Pad from "components/Pad"
+import StyledH2 from "components/StyledH2"
+import { useBreakpoints } from "lib/hooks"
+import image from "public/Home/Header/image.webp"
 
 const Paragraph = styled.p`
   font-family: "Raleway", sans-serif;

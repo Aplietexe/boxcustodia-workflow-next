@@ -2,7 +2,7 @@ import type { ReactNode } from "react"
 import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
-import type { DeepReadonly } from "../../types"
+import type { DeepReadonly } from "lib/types"
 
 type StyledRowProps = Readonly<{
   color: string

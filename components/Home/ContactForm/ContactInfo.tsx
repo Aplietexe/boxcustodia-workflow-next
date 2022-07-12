@@ -1,12 +1,12 @@
 import { Col, Image as ImageComponent, Row } from "react-bootstrap"
 import styled from "styled-components"
 
-import phone1Icon from "../../assets/ContactForm/phone-1.svg"
-import phone2Icon from "../../assets/ContactForm/phone-2.svg"
-import mailIcon from "../../assets/ContactForm/mail.svg"
-import StyledP from "../common/StyledP"
-import StyledLink from "../common/StyledLink"
-import ArrowIcon from "../common/ArrowIcon"
+import ArrowIcon from "components/ArrowIcon"
+import StyledLink from "components/StyledLink"
+import StyledP from "components/StyledP"
+import mailIcon from "public/Home/ContactForm/mail.svg"
+import phone1Icon from "public/Home/ContactForm/phone-1.svg"
+import phone2Icon from "public/Home/ContactForm/phone-2.svg"
 
 const contactOptions: {
   alt: string

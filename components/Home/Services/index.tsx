@@ -1,12 +1,12 @@
 import { Col, Image as ImageComponent, Row } from "react-bootstrap"
 import styled from "styled-components"
 
-import StyledH2 from "../common/StyledH2"
-import StyledP from "../common/StyledP"
-import sideImage from "../../assets/Services/side.webp"
+import StyledH2 from "components/StyledH2"
+import StyledP from "components/StyledP"
+import sideImage from "public/Home/Services/side.webp"
 
-import Service from "./Service"
 import content from "./content"
+import Service from "./Service"
 
 const StyledImage = styled(ImageComponent)`
   transform: translateX(13.5%);

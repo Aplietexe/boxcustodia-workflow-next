@@ -1,13 +1,13 @@
 import { Col, Image as ImageComponent, Row } from "react-bootstrap"
 import styled from "styled-components"
 
-import backgroundImage from "../../assets/ContactForm/background.webp"
-import leftImage from "../../assets/ContactForm/left.webp"
-import centerImage from "../../assets/ContactForm/center.webp"
-import rightImage from "../../assets/ContactForm/right.webp"
-import StyledH2 from "../common/StyledH2"
-import StyledP from "../common/StyledP"
-import Pad from "../common/Pad"
+import Pad from "components/Pad"
+import StyledH2 from "components/StyledH2"
+import StyledP from "components/StyledP"
+import backgroundImage from "public/Home/ContactForm/background.webp"
+import centerImage from "public/Home/ContactForm/center.webp"
+import leftImage from "public/Home/ContactForm/left.webp"
+import rightImage from "public/Home/ContactForm/right.webp"
 
 const StyledRow = styled(Row)`
   background-image: url(${backgroundImage});

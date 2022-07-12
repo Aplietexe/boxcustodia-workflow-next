@@ -1,7 +1,7 @@
 import type { ReactNode } from "react"
 import styled from "styled-components"
 
-import type { DeepReadonly } from "../../types"
+import type { DeepReadonly } from "lib/types"
 
 const StyledButton = styled.button`
   font-family: "Poppins", sans-serif;

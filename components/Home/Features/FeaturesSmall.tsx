@@ -1,7 +1,7 @@
 import { Row, Image as ImageComponent, Col } from "react-bootstrap"
 
-import StyledH3 from "../common/StyledH3"
-import StyledP from "../common/StyledP"
+import StyledH3 from "components/StyledH3"
+import StyledP from "components/StyledP"
 
 import content from "./content"
 

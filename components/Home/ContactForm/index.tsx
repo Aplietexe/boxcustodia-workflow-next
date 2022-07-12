@@ -1,6 +1,6 @@
-import { Row, Col } from "react-bootstrap"
+import { Col, Row } from "react-bootstrap"
 
-import Pad from "../common/Pad"
+import Pad from "components/Pad"
 
 import ContactFormBody from "./ContactFormBody"
 import ContactFormHeader from "./ContactFormHeader"

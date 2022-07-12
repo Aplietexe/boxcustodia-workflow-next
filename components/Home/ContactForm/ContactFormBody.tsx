@@ -7,8 +7,8 @@ import {
 } from "react-bootstrap"
 import styled from "styled-components"
 
-import AccentButton from "../common/AccentButton"
-import sendIcon from "../../assets/ContactForm/send.svg"
+import AccentButton from "components/AccentButton"
+import sendIcon from "public/Home/ContactForm/send.svg"
 
 const StyledForm = styled(Form)`
   font-family: "Poppins", sans-serif;

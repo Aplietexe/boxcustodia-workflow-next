@@ -1,10 +1,10 @@
-import image1 from "../../assets/Perks/1.svg"
-import image2 from "../../assets/Perks/2.svg"
-import image3 from "../../assets/Perks/3.svg"
-import image4 from "../../assets/Perks/4.svg"
-import image5 from "../../assets/Perks/5.svg"
-import image6 from "../../assets/Perks/6.svg"
-import image7 from "../../assets/Perks/7.svg"
+import image1 from "public/Home/Perks/1.svg"
+import image2 from "public/Home/Perks/2.svg"
+import image3 from "public/Home/Perks/3.svg"
+import image4 from "public/Home/Perks/4.svg"
+import image5 from "public/Home/Perks/5.svg"
+import image6 from "public/Home/Perks/6.svg"
+import image7 from "public/Home/Perks/7.svg"
 
 const perksContent: {
   height: number

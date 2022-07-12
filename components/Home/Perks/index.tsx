@@ -1,11 +1,11 @@
 import { Row, Image as ImageComponent, Col } from "react-bootstrap"
 import styled from "styled-components"
 
-import StyledP from "../common/StyledP"
-import StyledH4 from "../common/StyledH4"
-import tabletsImage from "../../assets/Perks/tablets.webp"
-import Pad from "../common/Pad"
-import useBreakpoints from "../../hooks/useBreakpoints"
+import Pad from "components/Pad"
+import StyledH4 from "components/StyledH4"
+import StyledP from "components/StyledP"
+import { useBreakpoints } from "lib/hooks"
+import tabletsImage from "public/Home/Perks/tablets.webp"
 
 import content from "./content"
 

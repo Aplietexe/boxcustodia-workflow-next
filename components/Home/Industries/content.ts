@@ -1,8 +1,8 @@
-import image1 from "../../assets/Industries/1.svg"
-import image2 from "../../assets/Industries/2.svg"
-import image3 from "../../assets/Industries/3.svg"
-import image4 from "../../assets/Industries/4.svg"
-import image5 from "../../assets/Industries/5.svg"
+import image1 from "public/Home/Industries/1.svg"
+import image2 from "public/Home/Industries/2.svg"
+import image3 from "public/Home/Industries/3.svg"
+import image4 from "public/Home/Industries/4.svg"
+import image5 from "public/Home/Industries/5.svg"
 
 const industriesContent: {
   height: number

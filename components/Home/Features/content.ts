@@ -1,9 +1,9 @@
-import image1 from "../../assets/Features/1.svg"
-import image2 from "../../assets/Features/2.svg"
-import image3 from "../../assets/Features/3.svg"
-import image4 from "../../assets/Features/4.svg"
-import image5 from "../../assets/Features/5.svg"
-import image6 from "../../assets/Features/6.svg"
+import image1 from "public/Home/Features/1.svg"
+import image2 from "public/Home/Features/2.svg"
+import image3 from "public/Home/Features/3.svg"
+import image4 from "public/Home/Features/4.svg"
+import image5 from "public/Home/Features/5.svg"
+import image6 from "public/Home/Features/6.svg"
 
 const featuresContent: { image: string; text: string; title: string }[] = [
   {

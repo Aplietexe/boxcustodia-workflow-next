@@ -1,11 +1,10 @@
 import { Image as ImageComponent } from "react-bootstrap"
 import styled from "styled-components"
 
-import boxLogo from "../assets/Company/box-logo.svg"
-
-import ArrowIcon from "./common/ArrowIcon"
-import Pad from "./common/Pad"
-import StyledLink from "./common/StyledLink"
+import ArrowIcon from "components/ArrowIcon"
+import Pad from "components/Pad"
+import StyledLink from "components/StyledLink"
+import boxLogo from "public/Home/Company/box-logo.svg"
 
 const Paragraph = styled.p`
   font-family: "Poppins", sans-serif;

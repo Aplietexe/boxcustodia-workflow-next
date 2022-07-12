@@ -1,9 +1,9 @@
 import { Col, Image as ImageComponent, Row } from "react-bootstrap"
 import styled from "styled-components"
 
-import Pad from "../common/Pad"
-import StyledH2 from "../common/StyledH2"
-import backgroundImage from "../../assets/Industries/background.webp"
+import Pad from "components/Pad"
+import StyledH2 from "components/StyledH2"
+import backgroundImage from "public/Home/Industries/background.webp"
 
 import content from "./content"
 

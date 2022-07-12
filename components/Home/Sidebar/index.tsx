@@ -2,7 +2,8 @@ import { useCallback } from "react"
 import { stack as Menu } from "react-burger-menu"
 import styled from "styled-components"
 
-import type { SetState } from "../../types"
+import type { SetState } from "lib/types"
+
 import "./defaultStyles.css"
 
 const Styles = styled.div`

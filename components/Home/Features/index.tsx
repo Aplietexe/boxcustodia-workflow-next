@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-leaked-render */
-import useBreakpoints from "../../hooks/useBreakpoints"
-import Pad from "../common/Pad"
-import StyledH2 from "../common/StyledH2"
+import Pad from "components/Pad"
+import StyledH2 from "components/StyledH2"
+import { useBreakpoints } from "lib/hooks"
 
 import FeaturesHexagon from "./FeaturesHexagon"
 import FeaturesSmall from "./FeaturesSmall"

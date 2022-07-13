@@ -1,37 +1,16 @@
 import Image from "next/image"
 import { Col, Row } from "react-bootstrap"
 
+import { BackgroundImage } from "components"
 import Pad from "components/Pad"
 import StyledH2 from "components/StyledH2"
 import StyledP from "components/StyledP"
 import backgroundImage from "public/Home/ContactForm/background.webp"
 import header from "public/Home/ContactForm/header.png"
 
-const StyledRow = styled(Row)`
-  background-image: url(${backgroundImage});
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  img {
-    position: relative;
-  }
-
-  .left-image {
-    transform: translateX(25%);
-  }
-
-  .right-image {
-    transform: translateX(-25%);
-  }
-
-  .center-image {
-    z-index: 1;
-  }
-`
-
 const ContactFormHeader = () => (
-  <StyledRow className="py-5" id="contact-form">
+  <Row className="py-5 position-relative" id="contact-form">
+    <BackgroundImage src={backgroundImage} />
     <Pad>
       <Col className="text-center py-4" xs={12}>
         <Image alt="Retratos" height={187} src={header} width={359} />
@@ -41,7 +20,7 @@ const ContactFormHeader = () => (
         <StyledP>Llene el formulario</StyledP>
       </Col>
     </Pad>
-  </StyledRow>
+  </Row>
 )
 
 export default ContactFormHeader

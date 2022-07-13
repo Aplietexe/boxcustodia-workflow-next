@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
+import { BackgroundImage } from "components"
 import Pad from "components/Pad"
 import StyledH2 from "components/StyledH2"
 import backgroundImage from "public/Home/Industries/background.webp"
@@ -43,15 +44,9 @@ const Grid = styled.div`
   justify-items: center;
 `
 
-const StyledRow = styled(Row)`
-  background-image: url(${backgroundImage});
-  background-position: bottom right;
-  background-size: cover;
-  background-repeat: no-repeat;
-`
-
 const Industries = () => (
-  <StyledRow className="py-5">
+  <Row className="py-5 position-relative">
+    <BackgroundImage objectPosition="bottom right" src={backgroundImage} />
     <Col>
       <Pad>
         <Row>
@@ -83,7 +78,7 @@ const Industries = () => (
         </Row>
       </Pad>
     </Col>
-  </StyledRow>
+  </Row>
 )
 
 export default Industries

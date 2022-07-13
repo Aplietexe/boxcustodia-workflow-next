@@ -1,10 +1,5 @@
-import {
-  Col,
-  FloatingLabel,
-  Form,
-  Image as ImageComponent,
-  Row,
-} from "react-bootstrap"
+import Image from "next/image"
+import { Col, FloatingLabel, Form, Row } from "react-bootstrap"
 import styled from "styled-components"
 
 import AccentButton from "components/AccentButton"
@@ -28,9 +23,13 @@ const StyledForm = styled(Form)`
   textarea {
     height: 120px !important;
   }
+`
 
-  img {
-    margin-left: 0.75rem;
+const ImageWrapper = styled.div`
+  margin-left: 0.75rem;
+
+  span {
+    vertical-align: middle;
   }
 `
 
@@ -63,13 +62,9 @@ const ContactFormBody = () => (
         </FloatingLabel>
         <AccentButton>
           Enviar
-          <ImageComponent
-            alt="Enviar"
-            fluid
-            height={27}
-            src={sendIcon}
-            width={32}
-          />
+          <ImageWrapper className="d-inline-block">
+            <Image alt="Enviar" height={27} src={sendIcon} width={32} />
+          </ImageWrapper>
         </AccentButton>
       </StyledForm>
     </Col>

@@ -1,9 +1,11 @@
-import { Image as ImageComponent } from "react-bootstrap"
+import Image from "next/image"
+import { useContext } from "react"
 import styled from "styled-components"
 
 import ArrowIcon from "components/ArrowIcon"
 import Pad from "components/Pad"
 import StyledLink from "components/StyledLink"
+import { SidePadding } from "lib/context/Home"
 import boxLogo from "public/Home/Company/box-logo.svg"
 
 const Paragraph = styled.p`
@@ -16,29 +18,42 @@ const Paragraph = styled.p`
   width: min(100%, 850px);
 `
 
-const Company = () => (
-  <Pad>
-    <div className="d-flex flex-column align-items-center py-5" id="company">
-      <ImageComponent
-        alt="Box Custodia y gestión digital"
-        className="my-5"
-        fluid
-        height={76}
-        src={boxLogo}
-        width={450}
-      />
-      <Paragraph className="mb-5">
-        ¡Somos una compañía argentina apasionada por la innovación! Con más de
-        25 años de experiencia y trayectoria, nuestra unidad de negocio
-        “Software as a Service” revoluciona y simplifica la gestión de tus
-        procesos de negocio a través de la digitalización.
-      </Paragraph>
-      <StyledLink className="mb-5" href="#">
-        Conocé nuestra empresa Box custodia
-        <ArrowIcon />
-      </StyledLink>
-    </div>
-  </Pad>
-)
+const Company = () => {
+  const sidePadding = useContext(SidePadding)
+
+  return (
+    <Pad>
+      <div className="d-flex flex-column align-items-center py-5" id="company">
+        <div
+          className="my-5"
+          css={`
+            width: min(455px, 100%);
+            height: auto;
+          `}
+        >
+          <Image
+            alt="Box Custodia y gestión digital"
+            height={77}
+            layout="responsive"
+            sizes={`(max-width:514px) calc(100vw - ${sidePadding} * 2),
+                  455w`}
+            src={boxLogo}
+            width={455}
+          />
+        </div>
+        <Paragraph className="mb-5">
+          ¡Somos una compañía argentina apasionada por la innovación! Con más de
+          25 años de experiencia y trayectoria, nuestra unidad de negocio
+          “Software as a Service” revoluciona y simplifica la gestión de tus
+          procesos de negocio a través de la digitalización.
+        </Paragraph>
+        <StyledLink className="mb-5" href="#">
+          Conocé nuestra empresa Box custodia
+          <ArrowIcon />
+        </StyledLink>
+      </div>
+    </Pad>
+  )
+}
 
 export default Company

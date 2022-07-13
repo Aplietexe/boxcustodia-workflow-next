@@ -1,9 +1,12 @@
-import { Col, Image as ImageComponent, Row } from "react-bootstrap"
+import Image from "next/image"
+import { useContext } from "react"
+import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
 import AccentButton from "components/AccentButton"
 import Pad from "components/Pad"
 import StyledH2 from "components/StyledH2"
+import { SidePadding } from "lib/context/Home"
 import { useBreakpoints } from "lib/hooks"
 import image from "public/Home/Header/image.webp"
 
@@ -15,12 +18,16 @@ const Paragraph = styled.p`
 `
 
 const Header = () => {
+  const sidePadding = useContext(SidePadding)
+
   const imageCol = (
     <Col xl={{ order: 2, span: 6 }} xs={12}>
-      <ImageComponent
+      <Image
         alt="Imagen del encabezado"
-        fluid
         height={677}
+        layout="responsive"
+        sizes={`(max-width:1199px) calc(100vw - ${sidePadding} * 2 - 1.5rem),
+                calc(50vw - ${sidePadding} - 0.75rem)`}
         src={image}
         width={973}
       />

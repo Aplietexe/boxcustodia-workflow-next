@@ -1,4 +1,5 @@
-import { Col, Image as ImageComponent } from "react-bootstrap"
+import Image from "next/image"
+import { Col } from "react-bootstrap"
 import styled from "styled-components"
 
 const ServiceWrapper = styled.div`
@@ -13,6 +14,13 @@ const ServiceWrapper = styled.div`
   display: flex;
   gap: 10px;
   align-items: center;
+
+  div {
+    min-height: 78px;
+    min-width: 78px;
+    max-height: 78px;
+    max-width: 78px;
+  }
 
   p {
     font-family: "Poppins", sans-serif;
@@ -30,7 +38,9 @@ interface ServiceProps {
 const Service = ({ image, text }: ServiceProps) => (
   <Col lg={6} xs={12}>
     <ServiceWrapper>
-      <ImageComponent alt="Icono" fluid height={78} src={image} width={78} />
+      <div>
+        <Image alt="Icono" height={78} src={image} width={78} />
+      </div>
       <p>{text}</p>
     </ServiceWrapper>
   </Col>

@@ -1,4 +1,5 @@
-import { Col, Image as ImageComponent, Row } from "react-bootstrap"
+import Image from "next/image"
+import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
 import StyledH2 from "components/StyledH2"
@@ -8,7 +9,7 @@ import sideImage from "public/Home/Services/side.webp"
 import content from "./content"
 import Service from "./Service"
 
-const StyledImage = styled(ImageComponent)`
+const ImageWrapper = styled.div`
   transform: translateX(13.5%);
 `
 
@@ -33,13 +34,9 @@ const Services = () => (
         </Row>
       </Col>
       <Col className="d-none d-xxl-flex align-items-center justify-content-end">
-        <StyledImage
-          alt="Personas"
-          fluid
-          height={746}
-          src={sideImage}
-          width={748}
-        />
+        <ImageWrapper>
+          <Image alt="Personas" height={746} src={sideImage} width={748} />
+        </ImageWrapper>
       </Col>
     </Row>
   </>

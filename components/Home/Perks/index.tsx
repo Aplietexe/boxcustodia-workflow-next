@@ -1,4 +1,5 @@
-import { Row, Image as ImageComponent, Col } from "react-bootstrap"
+import Image from "next/image"
+import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
 import Pad from "components/Pad"
@@ -31,9 +32,8 @@ const Perks = () => {
             <Grid>
               {content.map(({ height, image, title, text, width }) => (
                 <div key={title}>
-                  <ImageComponent
+                  <Image
                     alt={title}
-                    fluid
                     height={height}
                     src={image}
                     width={width}

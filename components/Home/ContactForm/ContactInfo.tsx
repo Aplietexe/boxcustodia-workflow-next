@@ -1,4 +1,5 @@
-import { Col, Image as ImageComponent, Row } from "react-bootstrap"
+import Image from "next/image"
+import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
 import ArrowIcon from "components/ArrowIcon"
@@ -58,13 +59,7 @@ const ContactInfo = () => (
       <div>
         {contactOptions.map(({ alt, height, image, text, width }) => (
           <OptionStyles className="mb-3" key={text}>
-            <ImageComponent
-              alt={alt}
-              fluid
-              height={height}
-              src={image}
-              width={width}
-            />
+            <Image alt={alt} height={height} src={image} width={width} />
             <StyledP className="m-0">{text}</StyledP>
           </OptionStyles>
         ))}

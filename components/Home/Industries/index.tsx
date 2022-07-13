@@ -1,4 +1,5 @@
-import { Col, Image as ImageComponent, Row } from "react-bootstrap"
+import Image from "next/image"
+import { Col, Row } from "react-bootstrap"
 import styled from "styled-components"
 
 import Pad from "components/Pad"
@@ -68,9 +69,8 @@ const Industries = () => (
             <Grid>
               {content.map(({ height, image, title, width }) => (
                 <IndustryStyles key={title}>
-                  <ImageComponent
+                  <Image
                     alt={title}
-                    fluid
                     height={height}
                     src={image}
                     width={width}

@@ -1,8 +1,9 @@
+import "bootstrap/dist/css/bootstrap.css"
 import type { NextPage } from "next"
+import Head from "next/head"
 import { useState } from "react"
 import { Container } from "react-bootstrap"
 
-import "bootstrap/dist/css/bootstrap.css"
 import { BackgroundColor, Pad } from "components"
 import {
   Company,
@@ -24,6 +25,12 @@ const Home: NextPage = () => {
 
   return (
     <>
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Poppins:wght@300;400;500;600&family=Raleway&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <HomeStyles />
       <Sidebar
         isSidebarOpen={isSidebarOpen}

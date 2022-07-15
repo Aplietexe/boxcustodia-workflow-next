@@ -66,6 +66,7 @@ const typescriptRules = {
     {
       allow: [
         "defaultStatus",
+        "Document",
         "event",
         "find",
         "length",
@@ -103,6 +104,7 @@ const typescriptRules = {
 }
 
 const componentRules = {
+  "@next/next/no-page-custom-font": "off",
   "@shopify/jsx-prefer-fragment-wrappers": "off",
   "react/forbid-component-props": "off",
 

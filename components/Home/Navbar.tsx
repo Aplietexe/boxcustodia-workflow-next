@@ -10,11 +10,6 @@ import burgerIcon from "public/Home/Navbar/burger-icon.svg"
 import loginIcon from "public/Home/Navbar/login-icon.svg"
 import workflowLogo from "public/Home/Navbar/workflow-logo.svg"
 
-const ImageWrapper = styled.div`
-  width: 2rem;
-  cursor: pointer;
-`
-
 const NavLinks = styled(Col)`
   justify-content: end;
   align-items: center;
@@ -50,11 +45,6 @@ const ContactLink = styled.a`
   }
 `
 
-const LogoWrapper = styled.div`
-  width: min(342px, 100%);
-  height: auto;
-`
-
 interface NavbarProps {
   setIsSidebarOpen: SetState<boolean>
 }
@@ -72,11 +62,9 @@ const Navbar = ({ setIsSidebarOpen }: NavbarProps) => {
         <Col className="d-flex align-items-end fs-1 ps-4 pb-2 d-xl-none" xs={2}>
           <Image
             alt="Abrir menú"
-            height={22}
             onClick={handleBurgerClick}
             role="button"
             src={burgerIcon}
-            width={37}
           />
         </Col>
         <Col
@@ -84,27 +72,35 @@ const Navbar = ({ setIsSidebarOpen }: NavbarProps) => {
           xl={5}
           xs={8}
         >
-          <LogoWrapper>
+          <div
+            css={`
+              width: min(342px, 100%);
+              height: auto;
+            `}
+          >
             <a href="#root">
               <Image
                 alt="Workflow"
-                height={83}
                 layout="responsive"
                 sizes={`(max-width: 593px) calc((100vw - ${sidePadding} * 2) * (2 / 3)),
                 342w`}
                 src={workflowLogo}
-                width={342}
               />
             </a>
-          </LogoWrapper>
+          </div>
         </Col>
         <Col
           className="d-flex align-items-end justify-content-end pe-4 pb-2 d-xl-none"
           xs={2}
         >
-          <ImageWrapper>
-            <Image alt="Ícono" height={32} src={loginIcon} width={32} />
-          </ImageWrapper>
+          <div
+            css={`
+              width: 2rem;
+              cursor: pointer;
+            `}
+          >
+            <Image alt="Ícono" src={loginIcon} />
+          </div>
         </Col>
         <NavLinks className="d-none d-xl-flex" xl={7}>
           <a href="#root">Inicio</a>

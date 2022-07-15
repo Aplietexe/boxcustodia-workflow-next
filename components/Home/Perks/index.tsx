@@ -30,14 +30,9 @@ const Perks = () => {
           <Row>
             <Col xs={12} xxl={7}>
               <Grid>
-                {content.map(({ height, image, title, text, width }) => (
+                {content.map(({ image, title, text }) => (
                   <div key={title}>
-                    <Image
-                      alt={title}
-                      height={height}
-                      src={image}
-                      width={width}
-                    />
+                    <Image alt={title} src={image} />
                     <StyledH4 className="pt-3 mb-2">{title}</StyledH4>
                     <StyledP>{text}</StyledP>
                   </div>

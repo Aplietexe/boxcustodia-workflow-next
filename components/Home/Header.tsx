@@ -24,12 +24,10 @@ const Header = () => {
     <Col xl={{ order: 2, span: 6 }} xs={12}>
       <Image
         alt="Imagen del encabezado"
-        height={677}
         layout="responsive"
         sizes={`(max-width:1199px) calc(100vw - ${sidePadding} * 2 - 1.5rem),
                 calc(50vw - ${sidePadding} - 0.75rem)`}
         src={image}
-        width={973}
       />
     </Col>
   )

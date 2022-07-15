@@ -39,7 +39,7 @@ const Service = ({ image, text }: ServiceProps) => (
   <Col lg={6} xs={12}>
     <ServiceWrapper>
       <div>
-        <Image alt="Icono" height={78} src={image} width={78} />
+        <Image alt="Icono" src={image} />
       </div>
       <p>{text}</p>
     </ServiceWrapper>

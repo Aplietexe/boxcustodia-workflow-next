@@ -11,7 +11,7 @@ const FeaturesSmall = () => (
     {content.map(({ image, title, text }) => (
       <Row className="my-5" key={title}>
         <Col xs={12}>
-          <Image alt={title} height={140} src={image} width={140} />
+          <Image alt={title} src={image} />
         </Col>
         <Col className="my-3" xs={12}>
           <StyledH3>{title}</StyledH3>

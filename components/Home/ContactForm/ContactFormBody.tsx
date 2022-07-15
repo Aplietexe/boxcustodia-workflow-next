@@ -25,14 +25,6 @@ const StyledForm = styled(Form)`
   }
 `
 
-const ImageWrapper = styled.div`
-  margin-left: 0.75rem;
-
-  span {
-    vertical-align: middle;
-  }
-`
-
 const ContactFormBody = () => (
   <Row className="py-5 mt-5">
     <Col xs={{ offset: 1, span: 10 }}>
@@ -62,9 +54,18 @@ const ContactFormBody = () => (
         </FloatingLabel>
         <AccentButton>
           Enviar
-          <ImageWrapper className="d-inline-block">
-            <Image alt="Enviar" height={27} src={sendIcon} width={32} />
-          </ImageWrapper>
+          <div
+            css={`
+              display: inline-block;
+              margin-left: 0.75rem;
+
+              span {
+                vertical-align: middle;
+              }
+            `}
+          >
+            <Image alt="Enviar" src={sendIcon} />
+          </div>
         </AccentButton>
       </StyledForm>
     </Col>

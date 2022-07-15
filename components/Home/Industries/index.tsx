@@ -62,14 +62,9 @@ const Industries = () => (
           </Col>
           <Col className="py-5" xl={8} xs={12} xxl={7}>
             <Grid>
-              {content.map(({ height, image, title, width }) => (
+              {content.map(({ image, title }) => (
                 <IndustryStyles key={title}>
-                  <Image
-                    alt={title}
-                    height={height}
-                    src={image}
-                    width={width}
-                  />
+                  <Image alt={title} src={image} />
                   <p className="text-center text-white">{title}</p>
                 </IndustryStyles>
               ))}

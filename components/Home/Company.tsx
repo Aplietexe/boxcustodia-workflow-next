@@ -33,12 +33,10 @@ const Company = () => {
         >
           <Image
             alt="Box Custodia y gestión digital"
-            height={77}
             layout="responsive"
             sizes={`(max-width:514px) calc(100vw - ${sidePadding} * 2),
                   455w`}
             src={boxLogo}
-            width={455}
           />
         </div>
         <Paragraph className="mb-5">

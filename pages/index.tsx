@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
 
   return (
-    <div>
+    <>
       <HomeStyles />
       <Sidebar
         isSidebarOpen={isSidebarOpen}
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
           <Footer />
         </Container>
       </SidePadding.Provider>
-    </div>
+    </>
   )
 }
 

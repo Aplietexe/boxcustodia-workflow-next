@@ -1,4 +1,5 @@
 import type { NextPage } from "next"
+import Head from "next/head"
 import { useState } from "react"
 import { Container } from "react-bootstrap"
 
@@ -23,6 +24,13 @@ const Home: NextPage = () => {
 
   return (
     <>
+      <Head>
+        <title>Workflow</title>
+        <meta
+          content="A través de esta herramienta podrás aumentar la productividad de tu negocio eliminando la gestión manual de documentos, tareas o información que va pasando de persona a persona."
+          name="description"
+        />
+      </Head>
       <HomeStyles />
       <Sidebar
         isSidebarOpen={isSidebarOpen}

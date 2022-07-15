@@ -46,7 +46,7 @@ const Grid = styled.div`
 
 const Industries = () => (
   <Row className="py-5 position-relative">
-    <BackgroundImage objectPosition="bottom right" src={backgroundImage} />
+    <BackgroundImage src={backgroundImage} />
     <Col>
       <Pad>
         <Row>

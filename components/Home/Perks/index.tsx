@@ -23,7 +23,18 @@ const Perks = () => {
   return (
     <Row className="py-5 position-relative">
       {breakpoints.xxl && (
-        <BackgroundImage objectPosition="bottom right" src={tabletsImage} />
+        <div
+          css={`
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            max-height: 100%;
+            aspect-ratio: ${tabletsImage.width / tabletsImage.height};
+            width: 70%;
+          `}
+        >
+          <BackgroundImage src={tabletsImage} />
+        </div>
       )}
       <Col className="py-5">
         <Pad>

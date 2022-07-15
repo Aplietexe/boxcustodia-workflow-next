@@ -8,6 +8,8 @@ interface StyledRowProps {
 
 const StyledRow = styled(Row)<StyledRowProps>`
   background-color: ${({ color }) => color};
+  position: relative;
+  z-index: 0;
 `
 
 interface BackgroundColorProps {

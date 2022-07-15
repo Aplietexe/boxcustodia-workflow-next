@@ -8,7 +8,7 @@ import StyledH2 from "components/StyledH2"
 import StyledP from "components/StyledP"
 import { SidePadding } from "lib/context/Home"
 import backgroundImage from "public/Home/ContactForm/background.webp"
-import header from "public/Home/ContactForm/header.png"
+import header from "public/Home/ContactForm/header.webp"
 
 const ContactFormHeader = () => {
   const sidePadding = useContext(SidePadding)

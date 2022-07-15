@@ -25,6 +25,7 @@ const Header = () => {
       <Image
         alt="Imagen del encabezado"
         layout="responsive"
+        priority
         sizes={`(max-width:1199px) calc(100vw - ${sidePadding} * 2 - 1.5rem),
                 calc(50vw - ${sidePadding} - 0.75rem)`}
         src={image}

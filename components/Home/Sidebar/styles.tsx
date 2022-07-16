@@ -10,74 +10,25 @@ const Styles = styled.div`
     display: none;
   }
 
-  .bm-menu {
-    overflow: hidden;
-    background-color: var(--accent-dark);
-  }
-
   .bm-cross {
     background-color: var(--gray-light);
   }
 
-  .bm-item {
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color: var(--text-color, var(--gray-light));
-
-    text-decoration: none;
-    margin-block: 0.75rem;
-    padding: 0.25rem;
-
-    &:hover {
-      color: var(--accent-light);
-    }
-  }
-
-  /* Position and sizing of burger button */
-  .bm-burger-button {
-    position: fixed;
-    width: 36px;
-    height: 30px;
-    left: 36px;
-    top: 36px;
-  }
-
-  /* Color/shape of burger icon bars */
-  .bm-burger-bars {
-    background: #373a47;
-  }
-
-  /* Color/shape of burger icon bars on hover*/
-  .bm-burger-bars-hover {
-    background: #a90000;
-  }
-
-  /* Position and sizing of clickable cross button */
   .bm-cross-button {
     height: 24px;
     width: 24px;
   }
 
-  /* Color/shape of close button cross */
-  .bm-cross {
-    background: #bdc3c7;
-  }
-
-  /*
-Sidebar wrapper styles
-Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
-*/
   .bm-menu-wrap {
     position: fixed;
     height: 100%;
   }
 
-  /* General sidebar styles */
   .bm-menu {
-    background: #373a47;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
+    overflow: hidden;
+    background-color: var(--accent-dark);
   }
 
   /* Morph shape necessary with bubble or elastic */
@@ -94,6 +45,18 @@ Note: Beware of modifying this element as it can break the animations - you shou
   /* Individual item */
   .bm-item {
     display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--text-color, var(--gray-light));
+
+    text-decoration: none;
+    margin-block: 0.75rem;
+    padding: 0.25rem;
+
+    &:hover {
+      color: var(--accent-light);
+    }
   }
 
   /* Styling of overlay */

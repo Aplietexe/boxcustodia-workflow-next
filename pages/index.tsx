@@ -17,7 +17,6 @@ import {
   Sidebar,
 } from "components/Home"
 import { SidePadding } from "lib/context/Home"
-import HomeStyles from "styles/HomeStyles"
 
 const Home: NextPage = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
@@ -31,7 +30,6 @@ const Home: NextPage = () => {
           name="description"
         />
       </Head>
-      <HomeStyles />
       <Sidebar
         isSidebarOpen={isSidebarOpen}
         setIsSidebarOpen={setIsSidebarOpen}

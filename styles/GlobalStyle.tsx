@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
-const HomeStyles = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
   :root {
     --accent-light: #4a50fd;
     --accent-dark: #2e4765;
@@ -16,4 +16,4 @@ const HomeStyles = createGlobalStyle`
   }
 `
 
-export default HomeStyles
+export default GlobalStyle

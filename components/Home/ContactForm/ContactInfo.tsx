@@ -41,10 +41,6 @@ const OptionStyles = styled(Col)`
   }
 `
 
-const NoWrap = styled.span`
-  white-space: nowrap;
-`
-
 const ContactInfo = () => (
   <Row className="mb-5 pb-5 p-lg-0 m-lg-0">
     <Col className="d-flex justify-content-center">
@@ -56,11 +52,7 @@ const ContactInfo = () => (
           </OptionStyles>
         ))}
         <StyledLink className="mt-3">
-          Ponerse en contacto con{" "}
-          <NoWrap>
-            comercial
-            <ArrowIcon />
-          </NoWrap>
+          Ponerse en contacto con <ArrowIcon word="comercial" />
         </StyledLink>
       </div>
     </Col>

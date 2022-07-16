@@ -2,20 +2,31 @@ import Image from "next/image"
 
 import arrowIcon from "public/Home/arrow-icon.svg"
 
-const ArrowIcon = () => (
-  <div
-    css={`
-      display: inline-block;
-      margin-left: 0.25rem;
+interface ArrowIconProps {
+  word: string
+}
 
-      span {
-        vertical-align: middle;
-        top: -3px;
-      }
+const ArrowIcon = ({ word }: ArrowIconProps) => (
+  <span
+    css={`
+      white-space: nowrap;
     `}
   >
-    <Image alt="Flecha" layout="fixed" src={arrowIcon} />
-  </div>
+    {word}
+    <div
+      css={`
+        display: inline-block;
+        margin-left: 0.25rem;
+
+        span {
+          vertical-align: middle;
+          top: -3px;
+        }
+      `}
+    >
+      <Image alt="Flecha" layout="fixed" src={arrowIcon} />
+    </div>
+  </span>
 )
 
 export default ArrowIcon

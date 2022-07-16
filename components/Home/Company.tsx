@@ -46,8 +46,7 @@ const Company = () => {
           procesos de negocio a través de la digitalización.
         </Paragraph>
         <StyledLink className="mb-5" href="#">
-          Conocé nuestra empresa Box custodia
-          <ArrowIcon />
+          Conocé nuestra empresa Box <ArrowIcon word="custodia" />
         </StyledLink>
       </div>
     </Pad>

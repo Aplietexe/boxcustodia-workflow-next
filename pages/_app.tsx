@@ -1,6 +1,6 @@
-import "bootstrap/dist/css/bootstrap.css"
 import type { AppProps } from "next/app"
 import Head from "next/head"
+import "styles/bootstrap.scss"
 
 import GlobalStyle from "styles/GlobalStyle"
 

@@ -62,6 +62,7 @@ const Navbar = ({ setIsSidebarOpen }: NavbarProps) => {
         <Col className="d-flex align-items-end fs-1 ps-4 pb-2 d-xl-none" xs={2}>
           <Image
             alt="Abrir menú"
+            layout="fixed"
             onClick={handleBurgerClick}
             role="button"
             src={burgerIcon}
@@ -99,7 +100,7 @@ const Navbar = ({ setIsSidebarOpen }: NavbarProps) => {
               cursor: pointer;
             `}
           >
-            <Image alt="Ícono" src={loginIcon} />
+            <Image alt="Ícono" layout="fixed" src={loginIcon} />
           </div>
         </Col>
         <NavLinks className="d-none d-xl-flex" xl={7}>

@@ -14,6 +14,7 @@ const StyledLink = styled.a`
   }
 
   display: inline-block;
+  text-align: center;
 `
 
 export default StyledLink

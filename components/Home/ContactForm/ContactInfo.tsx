@@ -51,7 +51,7 @@ const ContactInfo = () => (
             <StyledP className="m-0">{text}</StyledP>
           </OptionStyles>
         ))}
-        <StyledLink className="mt-3">
+        <StyledLink className="mt-3" href="#contact-form-body">
           Ponerse en contacto con <ArrowIcon word="comercial" />
         </StyledLink>
       </div>

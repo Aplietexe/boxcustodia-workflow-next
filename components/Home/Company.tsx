@@ -45,7 +45,7 @@ const Company = () => {
           “Software as a Service” revoluciona y simplifica la gestión de tus
           procesos de negocio a través de la digitalización.
         </Paragraph>
-        <StyledLink className="mb-5" href="#">
+        <StyledLink className="mb-5" href="https://boxcustodia.com">
           Conocé nuestra empresa Box <ArrowIcon word="custodia" />
         </StyledLink>
       </div>

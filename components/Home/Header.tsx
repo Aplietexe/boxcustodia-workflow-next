@@ -10,7 +10,7 @@ import { useBreakpoints } from "lib/hooks"
 import image from "public/Home/Header/image.webp"
 
 const Paragraph = styled.p`
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font-raleway);
   font-size: 1.563rem;
   font-weight: 400;
   color: var(--gray-dark);

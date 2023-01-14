@@ -2,7 +2,7 @@ import type { ReactNode } from "react"
 import styled from "styled-components"
 
 const StyledButton = styled.button`
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-poppins);
   font-weight: 600;
   font-size: 1.3125rem;
   color: #fff;

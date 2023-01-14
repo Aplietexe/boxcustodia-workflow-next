@@ -6,7 +6,7 @@ import AccentButton from "components/AccentButton"
 import sendIcon from "public/Home/ContactForm/send.svg"
 
 const StyledForm = styled(Form)`
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-poppins);
   font-size: 1.125rem;
   font-weight: 300;
   color: var(--gray-dark);

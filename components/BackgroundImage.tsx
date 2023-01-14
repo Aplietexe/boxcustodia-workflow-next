@@ -11,6 +11,7 @@ const BackgroundImage = ({ src }: BackgroundImageProps) => (
       z-index: -1;
       object-fit: cover;
       object-position: center;
+      padding: 0;
     `}
     fill
     quality={100}

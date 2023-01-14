@@ -18,7 +18,7 @@ const NavLinks = styled(Col)`
   padding-inline: 2rem;
 
   a {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-poppins);
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--text-color, var(--accent-dark));

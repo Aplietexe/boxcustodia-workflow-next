@@ -4,7 +4,7 @@ import styled from "styled-components"
 import BackgroundColor from "components/BackgroundColor"
 
 const StyledCol = styled(Col)`
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--font-open-sans);
   font-size: 1.25rem;
   font-weight: 400;
   color: #fff;

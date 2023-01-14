@@ -6,7 +6,7 @@ const FeaturesHexagon = memo(() => (
   <svg viewBox="96.27 0 2263.8 1535" xmlns="http://www.w3.org/2000/svg">
     <text
       fill="#2e4765"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="40"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 5020 1308) translate(0 42)"
@@ -18,7 +18,12 @@ const FeaturesHexagon = memo(() => (
         Diagramá tus procesos
       </tspan>
     </text>
-    <g fill="#6c757d" fontFamily="Poppins" fontSize="24" fontWeight="300">
+    <g
+      fill="#6c757d"
+      fontFamily="var(--font-poppins)"
+      fontSize="24"
+      fontWeight="300"
+    >
       <text transform="scale(.33333) matrix(4 0 0 4 5020 1696)">
         <tspan
           x="0 16.944 22.440001 38.639999 54.84 63.528 79.727997 104.256 120.456 127.032 135.576 150.76801 157.34399 165.144 170.64 185.832 191.448 206.856 213.43201 229.632 244.56 251.136 267.336 276.02399 291.43201 306.14401 321.07199 333.31201 348.72"
@@ -46,7 +51,7 @@ const FeaturesHexagon = memo(() => (
     </g>
     <text
       fill="#2e4765"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="40"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 4964 2960) translate(0 42)"
@@ -58,7 +63,12 @@ const FeaturesHexagon = memo(() => (
         Definí los atributos
       </tspan>
     </text>
-    <g fill="#6c757d" fontFamily="Poppins" fontSize="24" fontWeight="300">
+    <g
+      fill="#6c757d"
+      fontFamily="var(--font-poppins)"
+      fontSize="24"
+      fontWeight="300"
+    >
       <text transform="scale(.33333) matrix(4 0 0 4 4964 3312)">
         <tspan
           x="0 16.944 31.872 40.416 55.344002 64.031998 88.559998 94.056 109.248 125.448 132.024 137.52 153.72 165.96001 172.536 187.248 203.448 212.136 228.336 243.048 251.592 266.51999 275.20801 280.70401 292.944 301.48801 306.98401 321.69601 337.896 350.13599 356.71201 369.79199 376.36801 392.56799 401.25601 416.664 432.86401 438.35999 453.28799 469.48801 485.68799 501.888 516.81598 529.05603"
@@ -86,7 +96,7 @@ const FeaturesHexagon = memo(() => (
     </g>
     <text
       fill="#2e4765"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="40"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 2528 3848) translate(84.96 42)"
@@ -98,7 +108,12 @@ const FeaturesHexagon = memo(() => (
         Validación conjunta
       </tspan>
     </text>
-    <g fill="#6c757d" fontFamily="Poppins" fontSize="24" fontWeight="300">
+    <g
+      fill="#6c757d"
+      fontFamily="var(--font-poppins)"
+      fontSize="24"
+      fontWeight="300"
+    >
       <text transform="scale(.33333) matrix(4 0 0 4 3664 4212) translate(-211.66)">
         <tspan
           x="0 18.503998 33.912003 42.599991 51.287994 66.695999 82.895996 98.303993 106.99199 123.19199 129.76799 142.84799 149.424 158.112 174.312 182.856 188.35201 196.15201 201.64801 216.36002 232.56001 239.13602 253.84802 269.25601 284.448 290.064 305.25598 320.44797 328.99197 345.19199 369.71997 384.64798 399.83997 408.38397 423.31198"
@@ -126,7 +141,7 @@ const FeaturesHexagon = memo(() => (
     </g>
     <text
       fill="#2e4765"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="40"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 100 2936) translate(47.2 42)"
@@ -140,7 +155,7 @@ const FeaturesHexagon = memo(() => (
     </text>
     <text
       fill="#2e4765"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="40"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 0 1308) translate(117.92 42)"
@@ -154,7 +169,7 @@ const FeaturesHexagon = memo(() => (
     </text>
     <text
       fill="#2e4765"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="40"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 2528 0) translate(157.02 42)"
@@ -166,7 +181,12 @@ const FeaturesHexagon = memo(() => (
         Lanzamiento
       </tspan>
     </text>
-    <g fill="#6c757d" fontFamily="Poppins" fontSize="24" fontWeight="300">
+    <g
+      fill="#6c757d"
+      fontFamily="var(--font-poppins)"
+      fontSize="24"
+      fontWeight="300"
+    >
       <text transform="scale(.33333) matrix(4 0 0 4 2372 3288) translate(-496.22)">
         <tspan
           x="0 15.864014 31.056 47.256012 53.832001 66.959991 81.888 92.472015 99.048004 107.73599 122.664 138.86401 144.36002 149.85602 160.44003 176.64001 192.84 209.04001 215.616 221.11203 237.31201 243.88802 260.08801 276.28802 284.97601 300.384 316.58401 332.78403 347.49603 352.99203 368.40002 383.59201 390.168 404.88 420.28799 435.47998 441.09598 456.28796 471.47995 480.02396 496.22397"
@@ -200,7 +220,12 @@ const FeaturesHexagon = memo(() => (
         </tspan>
       </text>
     </g>
-    <g fill="#6c757d" fontFamily="Poppins" fontSize="24" fontWeight="300">
+    <g
+      fill="#6c757d"
+      fontFamily="var(--font-poppins)"
+      fontSize="24"
+      fontWeight="300"
+    >
       <text transform="scale(.33333) matrix(4 0 0 4 2272 1700) translate(-319.3)">
         <tspan
           x="0 13.727997 28.656006 35.231995 43.920013 58.847992 75.048004 80.544006 86.040009 96.624008 112.82401 121.51201 137.71201 152.90401 159.48001 164.97601 181.17601 193.41602 199.99202 216.19202 224.88002 240.07202 255.00002 271.20001 287.40002 299.64001 306.216 319.29599"
@@ -226,7 +251,12 @@ const FeaturesHexagon = memo(() => (
         </tspan>
       </text>
     </g>
-    <g fill="#6c757d" fontFamily="Poppins" fontSize="24" fontWeight="300">
+    <g
+      fill="#6c757d"
+      fontFamily="var(--font-poppins)"
+      fontSize="24"
+      fontWeight="300"
+    >
       <text transform="scale(.33333) matrix(4 0 0 4 3664 392) translate(-145.13)">
         <tspan
           x="0 18.503998 33.912003 49.32 58.007996 74.208 79.704002 94.896004 111.09601 119.78401 126.36002 142.56001 148.05602 164.25601 170.83202 183.91202 190.48802 205.68002 221.08803 229.77603 245.97603 252.55203 268.75204 283.68005"
@@ -288,7 +318,7 @@ const FeaturesHexagon = memo(() => (
     />
     <text
       fill="#80f"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="64"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 3209.7 2656.8)"
@@ -299,7 +329,7 @@ const FeaturesHexagon = memo(() => (
     </text>
     <text
       fill="#1d8eff"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="64"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 3209.7 2228.8)"
@@ -310,7 +340,7 @@ const FeaturesHexagon = memo(() => (
     </text>
     <text
       fill="#e8b416"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="64"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 3585.7 2008.8)"
@@ -321,7 +351,7 @@ const FeaturesHexagon = memo(() => (
     </text>
     <text
       fill="#29ab38"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="64"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 3997.7 2236.8)"
@@ -332,7 +362,7 @@ const FeaturesHexagon = memo(() => (
     </text>
     <text
       fill="#e68c0c"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="64"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 3993.7 2668.8)"
@@ -343,7 +373,7 @@ const FeaturesHexagon = memo(() => (
     </text>
     <text
       fill="#ff6e95"
-      fontFamily="Poppins"
+      fontFamily="var(--font-poppins)"
       fontSize="64"
       fontWeight="300"
       transform="scale(.33333) matrix(4 0 0 4 3593.7 2872.8)"

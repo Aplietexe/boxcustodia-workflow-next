@@ -45,7 +45,7 @@ const Styles = styled.div`
   /* Individual item */
   .bm-item {
     display: inline-block;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-poppins);
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--text-color, var(--gray-light));

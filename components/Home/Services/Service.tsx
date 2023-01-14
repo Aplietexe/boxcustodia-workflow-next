@@ -23,7 +23,7 @@ const ServiceWrapper = styled.div`
   }
 
   p {
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-poppins);
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--accent-dark);

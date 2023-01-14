@@ -62,7 +62,6 @@ const Navbar = ({ setIsSidebarOpen }: NavbarProps) => {
         <Col className="d-flex align-items-end fs-1 ps-4 pb-2 d-xl-none" xs={2}>
           <Image
             alt="Abrir menú"
-            layout="fixed"
             onClick={handleBurgerClick}
             role="button"
             src={burgerIcon}
@@ -82,7 +81,10 @@ const Navbar = ({ setIsSidebarOpen }: NavbarProps) => {
             <a href="#root">
               <Image
                 alt="Workflow"
-                layout="responsive"
+                css={`
+                  width: 100%;
+                  height: auto;
+                `}
                 sizes={`(max-width: 593px) calc((100vw - ${sidePadding} * 2) * (2 / 3)),
                 342w`}
                 src={workflowLogo}
@@ -100,7 +102,7 @@ const Navbar = ({ setIsSidebarOpen }: NavbarProps) => {
               cursor: pointer;
             `}
           >
-            <Image alt="Ícono" layout="fixed" src={loginIcon} />
+            <Image alt="Ícono" src={loginIcon} />
           </div>
         </Col>
         <NavLinks className="d-none d-xl-flex" xl={7}>

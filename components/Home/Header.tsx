@@ -33,7 +33,10 @@ const Header = () => {
       <Col xl={{ order: 2, span: 6 }} xs={12}>
         <Image
           alt="Imagen del encabezado"
-          layout="responsive"
+          css={`
+            width: 100%;
+            height: auto;
+          `}
           priority
           sizes={`(max-width:1199px) calc(100vw - ${sidePadding} * 2 - 1.5rem),
                 calc(50vw - ${sidePadding} - 0.75rem)`}

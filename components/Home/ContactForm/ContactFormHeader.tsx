@@ -28,7 +28,10 @@ const ContactFormHeader = () => {
             >
               <Image
                 alt="Retratos"
-                layout="responsive"
+                css={`
+                  width: 100%;
+                  height: auto;
+                `}
                 sizes={`(max-width: 406px) calc(100vw - ${sidePadding} * 2),359w`}
                 src={header}
               />

@@ -7,12 +7,15 @@ interface BackgroundImageProps {
 const BackgroundImage = ({ src }: BackgroundImageProps) => (
   <Image
     alt=""
-    layout="fill"
-    objectFit="cover"
-    objectPosition="center"
+    css={`
+      z-index: -1;
+      object-fit: cover;
+      object-position: center;
+    `}
+    fill
     quality={100}
+    sizes="100vw"
     src={src}
-    style={{ zIndex: -1 }}
   />
 )
 

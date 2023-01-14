@@ -47,7 +47,7 @@ const ContactInfo = () => (
       <div>
         {contactOptions.map(({ alt, image, text }) => (
           <OptionStyles className="mb-3" key={text}>
-            <Image alt={alt} layout="fixed" src={image} />
+            <Image alt={alt} src={image} />
             <StyledP className="m-0">{text}</StyledP>
           </OptionStyles>
         ))}

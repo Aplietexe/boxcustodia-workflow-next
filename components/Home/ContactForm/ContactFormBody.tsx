@@ -64,7 +64,14 @@ const ContactFormBody = () => (
               }
             `}
           >
-            <Image alt="Enviar" src={sendIcon} />
+            <Image
+              alt="Enviar"
+              css={`
+                max-width: 100%;
+                height: auto;
+              `}
+              src={sendIcon}
+            />
           </div>
         </AccentButton>
       </StyledForm>

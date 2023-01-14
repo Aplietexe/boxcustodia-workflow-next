@@ -49,7 +49,10 @@ const Services = () => {
             >
               <Image
                 alt="Personas"
-                layout="responsive"
+                css={`
+                  width: 100%;
+                  height: auto;
+                `}
                 sizes={`calc((100vw - ${sidePadding} * 2) * (5/12))`}
                 src={sideImage}
               />

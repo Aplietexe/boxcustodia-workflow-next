@@ -1,7 +1,8 @@
 /* eslint-disable max-lines */
-import React from "react"
 
-const FeaturesHexagon = () => (
+import { memo } from "react"
+
+const FeaturesHexagon = memo(() => (
   <svg viewBox="96.27 0 2263.8 1535" xmlns="http://www.w3.org/2000/svg">
     <text
       fill="#2e4765"
@@ -646,6 +647,8 @@ const FeaturesHexagon = () => (
       />
     </g>
   </svg>
-)
+))
 
-export default React.memo(FeaturesHexagon)
+FeaturesHexagon.displayName = "FeaturesHexagon"
+
+export default FeaturesHexagon

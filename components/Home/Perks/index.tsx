@@ -43,7 +43,14 @@ const Perks = () => {
               <Grid>
                 {content.map(({ image, title, text }) => (
                   <div key={title}>
-                    <Image alt={title} src={image} />
+                    <Image
+                      alt={title}
+                      css={`
+                        max-width: 100%;
+                        height: auto;
+                      `}
+                      src={image}
+                    />
                     <StyledH4 className="pt-3 mb-2">{title}</StyledH4>
                     <StyledP>{text}</StyledP>
                   </div>

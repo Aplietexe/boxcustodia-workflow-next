@@ -33,7 +33,10 @@ const Company = () => {
         >
           <Image
             alt="Box Custodia y gestión digital"
-            layout="responsive"
+            css={`
+              width: 100%;
+              height: auto;
+            `}
             sizes={`(max-width:514px) calc(100vw - ${sidePadding} * 2),
                   455w`}
             src={boxLogo}

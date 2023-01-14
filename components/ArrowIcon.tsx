@@ -24,7 +24,7 @@ const ArrowIcon = ({ word }: ArrowIconProps) => (
         }
       `}
     >
-      <Image alt="Flecha" layout="fixed" src={arrowIcon} />
+      <Image alt="Flecha" src={arrowIcon} />
     </div>
   </span>
 )

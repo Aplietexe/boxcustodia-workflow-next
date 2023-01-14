@@ -64,7 +64,14 @@ const Industries = () => (
             <Grid>
               {content.map(({ image, title }) => (
                 <IndustryStyles key={title}>
-                  <Image alt={title} src={image} />
+                  <Image
+                    alt={title}
+                    css={`
+                      max-width: 100%;
+                      height: auto;
+                    `}
+                    src={image}
+                  />
                   <p className="text-center text-white">{title}</p>
                 </IndustryStyles>
               ))}

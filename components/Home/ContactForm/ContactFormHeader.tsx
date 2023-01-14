@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { useContext } from "react"
-import { Col, Row } from "react-bootstrap"
+import Col from "react-bootstrap/Col"
+import Row from "react-bootstrap/Row"
 
 import { BackgroundImage } from "components"
 import Pad from "components/Pad"

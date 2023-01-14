@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { Col } from "react-bootstrap"
+import Col from "react-bootstrap/Col"
 import styled from "styled-components"
 
 const ServiceWrapper = styled.div`

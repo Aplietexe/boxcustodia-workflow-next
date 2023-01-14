@@ -1,5 +1,6 @@
 import Image from "next/image"
-import { Col, Row } from "react-bootstrap"
+import Col from "react-bootstrap/Col"
+import Row from "react-bootstrap/Row"
 
 import StyledH3 from "components/StyledH3"
 import StyledP from "components/StyledP"

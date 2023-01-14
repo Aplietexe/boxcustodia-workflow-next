@@ -1,7 +1,7 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import { useState } from "react"
-import { Container } from "react-bootstrap"
+import Container from "react-bootstrap/Container"
 
 import { BackgroundColor, Pad } from "components"
 import {

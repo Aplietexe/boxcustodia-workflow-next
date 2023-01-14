@@ -1,5 +1,6 @@
 import Image from "next/image"
-import { Col, Row } from "react-bootstrap"
+import Col from "react-bootstrap/Col"
+import Row from "react-bootstrap/Row"
 import styled from "styled-components"
 
 import ArrowIcon from "components/ArrowIcon"
